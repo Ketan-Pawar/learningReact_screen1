@@ -1,0 +1,56 @@
+.footer {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    border: 2px solid rgb(230, 227, 227);
+    box-shadow: 0px 2px 3px rgb(194, 192, 192);
+}
+
+.inline {
+    display: inline;
+    margin: auto;
+}
+
+.content-1 {
+    margin: auto;
+    text-align: center;
+    width: 330px;
+    border: 1px solid #d6d3d3;
+    box-shadow: 0 3px 3px rgb(223, 221, 221) ;
+    color: rgb(176, 175, 175);
+}
+
+.content-1-2 { 
+    margin: 10px 0 0 0;
+    text-align: left;
+    width: 328px;
+    height: 70px;
+    line-height: 4px;
+    border: 1px solid #d6d3d3;
+    border-radius: 10px;
+    color: rgb(176, 175, 175);
+}
+
+ .login1 {
+    position: relative;
+    left: 140px;
+    bottom: 30px;
+}
+
+div.content-3 {
+    line-height: 0px;
+    position: relative;
+    left: 220px;
+    bottom: 80px;
+    text-size-adjust: 10;
+}
+
+
+/* 
+.insideFooter {
+    margin: auto;
+    width: 80%;
+    line-height: 2px;
+    text-align: left;
+    border: 1px solid #ccc;
+} */

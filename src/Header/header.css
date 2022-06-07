@@ -1,0 +1,33 @@
+
+.Header {
+    margin: 10px;
+    height: auto;
+    line-height: 4px;
+    overflow-x: auto;
+    text-align: left;
+    width: 220px;
+    flex-shrink: 0;
+    height: 120px;
+    background-color: rgb(147, 225, 237);
+    position: relative;
+    top: 20px;
+  }
+
+Header.img {
+    display: flex;
+    float: left;
+}
+
+/* .Header {
+    margin: 7px ;
+    width: 300px;
+    line-height: 7px;
+    border: 1px solid #ccc;
+    text-align: left;
+    border-color: aquamarine;
+    background-color: rgb(147, 225, 237);
+    overflow-x: auto;
+    overflow-y: hidden;
+} */
+
+

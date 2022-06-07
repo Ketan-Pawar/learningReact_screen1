@@ -1,6 +1,81 @@
 .App {
+  margin: auto;
+  text-align: center;
+  width: 375px;
+  border: 1px solid #282c34;
   text-align: center;
 }
+
+div.Scroll {
+  flex-direction: row;
+  display: flex;
+  overflow-x: auto;
+  /* overflow-x: scroll;
+  overflow-y: hidden; */
+}
+
+.FiArrowLeft {
+   position: relative;
+   right: 140px;
+   top: 20px;
+}
+
+.AiOutlineEllipsis {
+  position: relative;
+  left: 140px;
+  top: 20px;
+}
+
+.spending {
+  margin: auto;
+  margin-right: 200px;
+  line-height: 6px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #c0c2c8;
+}
+
+#progressbar {
+  width: 90%;
+  align-content: center;
+  margin-left: 5%;
+  background-color: rgb(194, 194, 194);
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 1px;
+}
+
+#progressbar>div {
+  background-color: rgb(20, 101, 43);
+  width: 40%;
+  /* Adjust with JavaScript */
+  height: 17px;
+  border-radius: 10px;
+}
+
+.progress1 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.BsFillPlusCircleFill {
+  position: relative;
+  left: 150px;
+  bottom: 5px;
+  color: #0f295d;
+}
+
+hr.solid {
+  border-top: 1px solid rgb(199, 198, 198);
+  width: 80%;
+}
+
 
 .App-logo {
   height: 40vmin;
